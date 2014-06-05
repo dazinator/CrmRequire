@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CrmRequire
+namespace CrmRequire.Requirements
 {
     public class CrmSolution
     {

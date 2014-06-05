@@ -1,6 +1,6 @@
 ﻿using CrmRequire.Dynamics;
 
-namespace CrmRequire
+namespace CrmRequire.Requirements
 {
     public class OrganisationRequirement : Requirement
     {

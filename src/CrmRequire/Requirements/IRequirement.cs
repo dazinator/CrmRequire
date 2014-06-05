@@ -1,6 +1,4 @@
-﻿using CrmRequire.Dynamics;
-
-namespace CrmRequire
+﻿namespace CrmRequire.Requirements
 {
     public interface IRequirement
     {

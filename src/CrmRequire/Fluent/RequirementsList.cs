@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using CrmRequire.Requirements;
 
-namespace CrmRequire
+namespace CrmRequire.Fluent
 {
     public class RequirementsList : Requirement
     {

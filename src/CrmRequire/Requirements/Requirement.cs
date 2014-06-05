@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using CrmRequire.Dynamics;
 
-namespace CrmRequire
+namespace CrmRequire.Requirements
 {
     public abstract class Requirement : IRequirement
     {

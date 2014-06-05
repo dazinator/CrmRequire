@@ -1,9 +1,7 @@
-﻿using System;
-using System.Linq;
-using Microsoft.Xrm.Sdk;
+﻿using System.Linq;
 using Microsoft.Xrm.Sdk.Client;
 
-namespace CrmRequire
+namespace CrmRequire.Requirements
 {
     public class SolutionExistsRequirement : Requirement
     {

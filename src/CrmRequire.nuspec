@@ -4,7 +4,7 @@
     <id>CrmRequire</id>
     <version>1.0.0</version>
     <title>CrmRequire</title>
-    <description>A .NET library that helps you easily check for required runtime dependencies on Dynamics CRM. See https://github.com/dazinator/CrmRequire for details.</description>
+    <description>A .NET library that helps you easily check a Dynamics Crm for required runtime dependencies. See https://github.com/dazinator/CrmRequire for details.</description>
     <authors>Darrell Tunnell</authors>
     <owners>Darrell Tunnell</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>   

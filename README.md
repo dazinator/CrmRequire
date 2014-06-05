@@ -7,7 +7,7 @@ A library that helps you easily check for and establish runtime dependencies on 
 # The problem
 Imagine you write an application that queries a custom entity in Dynamics CRM.
 
-You deploy your application to a UAT environment andd it all works swimmingly.
+You deploy your application to a UAT environment and it all works swimmingly.
 
 However, when you deploy your application to the LIVE environment - it all falls over - because someone forgot to create the custom entity in the LIVE CRM.
 

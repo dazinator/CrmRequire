@@ -1,10 +1,32 @@
 CrmRequire
 ==========
 
-A library that helps you easily check for required runtime dependencies on Dynamics CRM
+A .NET library that helps you easily check a Dynamics Crm for required runtime dependencies.
 
+## Code Example
 
-# The problem
+```csharp
+            var crmConnectionString = "Url=http://somecrm:5555/orgname;Domain=domainname; UserName=admin; Password=password;" 
+
+            var requirements = RequireThat.CrmOrganisation(crmConnectionString)
+                       .HasSolution("MySolution")
+                       .MinimumVersion("3.3.0.58")
+                       .Gather();
+
+            var result = requirements.Check();
+            if (!result)
+            {
+                var unsatisfiedRequirements = requirements.GetUnsatisfiedRequirements();
+                foreach (var requirement in unsatisfiedRequirements)
+                {
+                    Console.WriteLine(requirement.Message);
+                }
+            }
+```
+
+You can use NuGet to adopt this library: https://www.nuget.org/packages/CrmRequire/
+
+# Explaination of the problem
 Imagine you write an application that part way through processing, queries a custom entity in Dynamics CRM 
 
 You deploy your application to a UAT environment and it all works swimmingly.

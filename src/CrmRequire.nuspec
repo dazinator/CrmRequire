@@ -18,10 +18,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="CrmUp\bin\Release\net40\CrmRequire.dll" target="lib\net40\CrmRequire.dll" />
-    <file src="CrmUp\bin\Release\net40\CrmRequire.pdb" target="lib\net40\CrmRequire.pdb" />
-    <file src="CrmUp\bin\Release\net45\CrmRequire.dll" target="lib\net45\CrmRequire.dll" />
-    <file src="CrmUp\bin\Release\net45\CrmRequire.pdb" target="lib\net45\CrmRequire.pdb" />
+    <file src="CrmRequire\bin\Release\net40\CrmRequire.dll" target="lib\net40\CrmRequire.dll" />
+    <file src="CrmRequire\bin\Release\net40\CrmRequire.pdb" target="lib\net40\CrmRequire.pdb" />
+    <file src="CrmRequire\bin\Release\net45\CrmRequire.dll" target="lib\net45\CrmRequire.dll" />
+    <file src="CrmRequire\bin\Release\net45\CrmRequire.pdb" target="lib\net45\CrmRequire.pdb" />
 
   </files>
   

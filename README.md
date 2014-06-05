@@ -6,7 +6,14 @@ A .NET library that helps you easily check a Dynamics Crm for required runtime d
 ## Code Example
 
 ```csharp
-            var crmConnectionString = "Url=http://somecrm:5555/orgname;Domain=domainname; UserName=admin; Password=password;" 
+using CrmRequire;
+
+class Program
+    {
+        static void Main(string[] args)
+        {
+
+            var crmConnectionString = "Url=http://somecrm:5555/orgname;Domain=domainname; UserName=admin; Password=password;"; 
 
             var requirements = RequireThat.CrmOrganisation(crmConnectionString)
                        .HasSolution("MySolution")
@@ -22,6 +29,8 @@ A .NET library that helps you easily check a Dynamics Crm for required runtime d
                     Console.WriteLine(requirement.Message);
                 }
             }
+         }
+     }
 ```
 
 The Fluent API has other methods that you can chain in order to express all of your requirements.

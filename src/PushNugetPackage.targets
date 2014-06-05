@@ -81,7 +81,7 @@
     <MakeDir Directories="$(PackageOutputDir)" />
 
     <PropertyGroup>
-      <BuildCommand>$(NuGetExe) pack $(SolutionDir)CrmUp.nuspec -Properties "Configuration=$(Configuration);Platform=$(Platform);" $(NonInteractiveSwitch) -OutputDirectory "$(PackageOutputDir)" -Version "$(PackageVersionNumber)" -symbols -Verbose</BuildCommand>
+      <BuildCommand>$(NuGetExe) pack $(SolutionDir)CrmRequire.nuspec -Properties "Configuration=$(Configuration);Platform=$(Platform);" $(NonInteractiveSwitch) -OutputDirectory "$(PackageOutputDir)" -Version "$(PackageVersionNumber)" -symbols -Verbose</BuildCommand>
       <OutputPackage>$(PackageOutputDir)\$(TargetName).$(PackageVersionNumber).nupkg</OutputPackage>
     </PropertyGroup>
 

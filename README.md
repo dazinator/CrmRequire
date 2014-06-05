@@ -15,4 +15,4 @@ You later deploy your application to the LIVE environment. It all falls over par
 Your application has a runtime dependency on that entity being in Dynamics CRM. However your application has not done any intelligent checking of this dependency and therefore it ends up failing whilst its halfway through processing that invoice, or adjusting that exchange rate. This is bad!
 
 # How does this help me?
-CrmRequire will help you be more explicit about what your application rquires in terms of runtime dependencies on CRM, and it will enable you to identify early if there is missing dependency. This allows your application to intelligently disable functionality if the CRM dependencies are not met - with clear indicators as to whatt he problem is. This is better!
+CrmRequire will enable your application to be explicit about what Crm runtime dependencies it requires. It will be able to detect early if there are any missing dependencies. This allows your application to intelligently disable functionality if runtime CRM dependencies are not met - with clear indicators as to what the problem is. This is better!

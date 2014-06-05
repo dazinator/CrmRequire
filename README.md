@@ -24,6 +24,8 @@ A .NET library that helps you easily check a Dynamics Crm for required runtime d
             }
 ```
 
+The Fluent API has other methods that you can chain in order to express all of your requirements.
+
 You can use NuGet to adopt this library: https://www.nuget.org/packages/CrmRequire/
 
 # Explaination of the problem

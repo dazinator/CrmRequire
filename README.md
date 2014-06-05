@@ -1,7 +1,7 @@
 CrmRequire
 ==========
 
-A library that helps you easily check for and establish runtime dependencies on Dynamics CRM
+A library that helps you easily check for required runtime dependencies on Dynamics CRM
 
 
 # The problem

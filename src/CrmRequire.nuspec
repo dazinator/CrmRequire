@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CrmRequire</id>
+    <version>1.0.0</version>
+    <title>CrmRequire</title>
+    <description>A .NET library that helps you easily check for required runtime dependencies on Dynamics CRM. See https://github.com/dazinator/CrmRequire for details.</description>
+    <authors>Darrell Tunnell</authors>
+    <owners>Darrell Tunnell</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>   
+    <language>en-gb</language>
+    <projectUrl>https://github.com/dazinator/CrmRequire/</projectUrl>
+    <copyright>Copyright © Darrell Tunnell 2014</copyright>
+    <releaseNotes>Initial Release</releaseNotes>
+    <tags>Dynamics Crm Dependency Requirement Requirements Deployment</tags>
+    <dependencies>     
+      <dependency id="Microsoft.CrmSdk.Extensions" version="6.0.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="CrmUp\bin\Release\net40\CrmRequire.dll" target="lib\net40\CrmRequire.dll" />
+    <file src="CrmUp\bin\Release\net40\CrmRequire.pdb" target="lib\net40\CrmRequire.pdb" />
+    <file src="CrmUp\bin\Release\net45\CrmRequire.dll" target="lib\net45\CrmRequire.dll" />
+    <file src="CrmUp\bin\Release\net45\CrmRequire.pdb" target="lib\net45\CrmRequire.pdb" />
+
+  </files>
+  
+</package>

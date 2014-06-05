@@ -4,7 +4,7 @@ CrmRequire
 A library that helps you easily check for and establish runtime dependencies on Dynamics CRM
 
 
-# Problem
+# The problem
 Imagine you write an application that queries a custom entity in Dynamics CRM.
 
 You deploy your application to a UAT environment andd it all works swimmingly.
